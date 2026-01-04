@@ -1,9 +1,11 @@
-# Ignore datasets
+# Ignore large datasets ONLY
+Genre Classification Dataset/
+
+# Ignore common data files (but NOT archive/)
 *.csv
 *.zip
 *.parquet
 *.pkl
-data/
 
 # Python cache
 __pycache__/
